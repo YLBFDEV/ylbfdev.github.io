@@ -1,9 +1,9 @@
 <html>
 <head>
-<title>µçÊÓÔÚÏßÖ±²¥</title>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<meta name="Keywords" content="µçÊÓÔÚÏßÖ±²¥">
-<meta name="description" content="µçÊÓÔÚÏßÖ±²¥">
+<title>ç”µè§†åœ¨çº¿ç›´æ’­</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="ç”µè§†åœ¨çº¿ç›´æ’­">
+<meta name="description" content="ç”µè§†åœ¨çº¿ç›´æ’­">
 <style type="text/css">
 <!--
 body {overflow:hidden;background-color: #000000}
@@ -24,7 +24,7 @@ function showsubmenu(clickis){
 	whichEl = eval("tv_list");
 	if (whichEl.style.display == "none") {
 		eval("tv_list.style.display=\"\";");
-		idFlag.innerHTML = "<div class='close'><a href='#' hidefocus='true' title='°´´ËÇÐ»»µ½¾«¼òÄ£Ê½'></a></div>";
+		idFlag.innerHTML = "<div class='close'><a href='#' hidefocus='true' title='æŒ‰æ­¤åˆ‡æ¢åˆ°ç²¾ç®€æ¨¡å¼'></a></div>";
 		if(clickis==0) eval("sh.style.display=\"\";");
 		try{
 			if(window.frames["play"].lm_id == 1) window.frames["play"].showLeftMenu("9");
@@ -33,7 +33,7 @@ function showsubmenu(clickis){
 	}
 	else {
 		eval("tv_list.style.display=\"none\";");
-		idFlag.innerHTML = "<div class='open'><a href='#' hidefocus='true' title='°´´ËÇÐ»»µ½Õý³£Ä£Ê½'></a>";
+		idFlag.innerHTML = "<div class='open'><a href='#' hidefocus='true' title='æŒ‰æ­¤åˆ‡æ¢åˆ°æ­£å¸¸æ¨¡å¼'></a>";
 		if(clickis==0) eval("sh.style.display=\"none\";");
 		try{
 			if(window.frames["play"].lm_id == 1) window.frames["play"].showLeftMenu("9");
@@ -60,7 +60,7 @@ var tstr='';
 tstr = tstr +'<table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">';
 tstr = tstr +'<tr>';
 tstr = tstr +'<td height="100%"><iframe id="play" name="play" frameborder="0" src="http://live.64ma.com:1930/tv/tv.asp?pid='+ channelId +'&sid=&swd="  width="100%" height="100%" SCROLLING="NO" border="0" allowtransparency="true"></iframe></td>';
-tstr = tstr +'<td id="sh" width="9" bgcolor="#171a1d" style="cursor:hand" onClick="showsubmenu(1)"><span id="idFlag"><div class="close" id="sh"><a href="#" hidefocus="true" title="°´´ËÇÐ»»µ½¾«¼òÄ£Ê½"></a></div></span></td>';
+tstr = tstr +'<td id="sh" width="9" bgcolor="#171a1d" style="cursor:hand" onClick="showsubmenu(1)"><span id="idFlag"><div class="close" id="sh"><a href="#" hidefocus="true" title="æŒ‰æ­¤åˆ‡æ¢åˆ°ç²¾ç®€æ¨¡å¼"></a></div></span></td>';
 tstr = tstr +'<td width="210" id="tv_list"><iframe id="tvl" name="tvl" frameborder="0" src="http://live.64ma.com:1930/tv/list.asp?tid=&fid=&swd="  width="100%" height="100%" SCROLLING="AUTO" border="0" target="play" allowtransparency="true"></iframe></td>';
 tstr = tstr +'</tr>';
 tstr = tstr +'</table>';
